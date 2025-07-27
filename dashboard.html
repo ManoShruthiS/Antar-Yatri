@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Antar Yatri - Dashboard</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cardo:ital@0;1&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="assets/logo.png" alt="Mahistra Logo" />
+      <span>Mahistra</span>
+    </div>
+    <nav>
+      <a href="journal.html">📝 Journal</a>
+      <div class="theme-toggle" id="theme-icon">🌙 <span>Mode</span></div>
+    </nav>
+  </header>
+
+  <section class="welcome">
+    <h1>Welcome to Antar Yatri🧘‍♀️</h1>
+    <p>Your sacred space for inner reflection and spiritual growth</p>
+  </section>
+
+  <section class="features">
+    <div class="card">
+      <h2>📜 Sanskrit Word of the Day</h2>
+      <p>
+        <span id="sanskritWord"></span>
+        <span id="wordPronunciation"></span><br>
+        <span id="wordMeaning"></span>
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>🪔 Daily Rituals</h2>
+      <p>
+        <span id="ritualTitle"></span><br>
+        <span id="ritualDesc"></span>
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>📖 Scriptural Quotes</h2>
+      <p>
+        <span id="quoteText"></span><br>
+        <span id="quoteSource"></span>
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>📓 Journal Your Journey</h2>
+      <textarea id="journalInput" rows="5" placeholder="Write your thoughts..."></textarea>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 Mahistra. All Rights Reserved. | Crafted with Aura ✨
+  </footer>
+
+  <script src="js/theme.js"></script>
+  <script src="js/daily.js"></script>
+</body>
+</html>
